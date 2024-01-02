@@ -21,9 +21,9 @@ jobs:
         with:
           node-version: 18.x
       - name: install dependencies
-        run: npm ci
+        run: pnpm i
       - name: build app
-        run: npm run build
+        run: pnpm build
         env:
           PUBLIC_URL: /homework-front-main
       - name: upload artifact
