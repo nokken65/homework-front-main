@@ -41,7 +41,7 @@ jobs:
       - name: build app
         run: pnpm build
         env:
-          PUBLIC_URL: /homework-front-main
+          PUBLIC_URL: /hws1
       - name: upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
